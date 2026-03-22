@@ -1,0 +1,335 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 11970,
+      "max": [
+        20.71832847595215,
+        28.120105743408203,
+        -37.974266052246094
+      ],
+      "min": [
+        -10.563333511352539,
+        6.072612762451172,
+        -60.73305892944336
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 143640,
+      "componentType": 5126,
+      "count": 11970,
+      "max": [
+        1.0,
+        1.0,
+        0.9999996423721313
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -0.9999995827674866
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 11970,
+      "max": [
+        1.0,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 68112,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 287280,
+      "componentType": 5126,
+      "count": 48600,
+      "max": [
+        20.654293060302734,
+        29.774606704711914,
+        -38.077964782714844
+      ],
+      "min": [
+        -8.470577239990234,
+        8.956352233886719,
+        -56.10208511352539
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 870480,
+      "componentType": 5126,
+      "count": 48600,
+      "max": [
+        0.9999992847442627,
+        0.9999988079071045,
+        0.9999220371246338
+      ],
+      "min": [
+        -0.9999992847442627,
+        -1.0,
+        -0.9999070167541504
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 95760,
+      "componentType": 5126,
+      "count": 48600,
+      "max": [
+        0.9381280541419983,
+        1.0
+      ],
+      "min": [
+        -0.0625,
+        0.0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 272448,
+      "componentType": 5125,
+      "count": 259092,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "EmmaTurk (https://sketchfab.com/EmmaTurk)",
+      "license": "CC-BY-NC-SA-4.0 (http://creativecommons.org/licenses/by-nc-sa/4.0/)",
+      "source": "https://sketchfab.com/3d-models/3d-ring-9065f8f0023043718360f8ccef7339c9",
+      "title": "3D Ring"
+    },
+    "generator": "Sketchfab-15.27.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 1308816,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 484560,
+      "byteOffset": 1308816,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1453680,
+      "byteOffset": 1793376,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 3247056,
+      "uri": "scene.bin"
+    }
+  ],
+  "extensionsUsed": [
+    "KHR_materials_specular"
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_specular": {
+          "specularColorFactor": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "specularFactor": 0.6750496763418707
+        }
+      },
+      "name": "Material_43",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.5287635162316685,
+          0.5287635162316685,
+          0.5287635162316685,
+          1.0
+        ],
+        "roughnessFactor": 0.29104850605258986
+      }
+    },
+    {
+      "alphaMode": "BLEND",
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_specular": {
+          "specularColorFactor": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "specularFactor": 0.0
+        }
+      },
+      "name": "Material_25",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1.0,
+          1.0,
+          1.0,
+          0.6445733929855786
+        ],
+        "roughnessFactor": 0.27276273603881457
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "ring_Material #43_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "ring_Material #25_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 5,
+            "POSITION": 4,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        0.07590697705745697,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.685473473177645e-17,
+        -0.07590697705745697,
+        0.0,
+        0.0,
+        0.07590697705745697,
+        1.685473473177645e-17,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        0.02539999969303608,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.02539999969303608,
+        0.0,
+        0.0,
+        -0.02539999969303608,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "726c120bb8bf48dd9112147edc0ec86f.fbx"
+    },
+    {
+      "children": [
+        3
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4,
+        5
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.9999999999999867,
+        1.6292068494294582e-07,
+        0.0,
+        0.0,
+        -1.6292068494294582e-07,
+        0.9999999999999867,
+        0.0,
+        0.0,
+        -5.676845550537109,
+        44.59808349609375,
+        1.0
+      ],
+      "name": "ring"
+    },
+    {
+      "mesh": 0,
+      "name": "ring_Material #43_0"
+    },
+    {
+      "mesh": 1,
+      "name": "ring_Material #25_0"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}
